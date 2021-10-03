@@ -1,5 +1,4 @@
-import mongoose from 'mongoose'
-const Schema = mongoose.Schema
+import {Schema, model} from 'mongoose'
 
 const bookSchema = new Schema({
   name: String,
@@ -7,4 +6,4 @@ const bookSchema = new Schema({
   authorId: String,
 })
 
-export default mongoose.model('Book', bookSchema)
+export default model('Book', bookSchema)
