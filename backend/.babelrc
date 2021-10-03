@@ -6,7 +6,8 @@
           "alias": {
             "schema": "./schema",
             "app": "./app",
-            "dist":"./dist"
+            "dist": "./dist",
+            "models": "./models"
           }
         }]
       ]

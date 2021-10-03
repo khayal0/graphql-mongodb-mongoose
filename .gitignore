@@ -1,6 +1,7 @@
 
-# Compiled ES6 js folder
-backend/dist/
+# Compiled js folder
+*/dist/
+*/build/
 
 # Dependency directories
 node_modules/

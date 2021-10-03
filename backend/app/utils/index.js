@@ -4,6 +4,7 @@
  * Find in list
  * @param list
  * @param argument value to compare
+ * @return  an item from given list
  */
 export const find = (list, argument) => list.find((item) => item.id === argument)
 
